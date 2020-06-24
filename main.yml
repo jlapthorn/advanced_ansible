@@ -14,7 +14,7 @@
     - haproxy
 
 - name: Deploy Tomcat on application servers
-  hosts: app
+  hosts: apps
   become: true
   gather_facts: true
   roles:
